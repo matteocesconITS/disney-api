@@ -1,0 +1,82 @@
+.fav-character {
+  text-decoration: none;
+  padding: 0.3rem 3rem;
+  margin: 0.5rem 3rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: "text-font";
+  font-size: 20px;
+  display: flex;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.fav-character > img {
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 70px;
+}
+
+@media (max-width: 768px) {
+  .fav-character > img {
+    width: 150px;
+    height: 100px;
+  }
+  .fav-character {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .text-container {
+    flex-direction: column !important;
+    justify-content: center !important;
+    margin-left: 0rem !important;
+  }
+  .text-sub-container > a {
+    margin: 0.8rem 0;
+  }
+}
+
+.link-back-detail {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "text-font";
+  background: -webkit-linear-gradient(#00d8ff, #0006a3);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 3px solid #0006a3;
+  padding: 0.4rem 1rem;
+  border-radius: 40px;
+}
+
+.link-back-detail:hover {
+  background: -webkit-linear-gradient(#9d00ff, #a30047);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-color: #a30047;
+}
+
+.text-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.text-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.delete-btn:hover {
+  background-color: #ff0019;
+}

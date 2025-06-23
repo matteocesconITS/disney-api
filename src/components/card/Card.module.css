@@ -1,0 +1,71 @@
+.card-container {
+  margin: 1rem 2rem 2rem;
+  text-align: center;
+  width: 19rem;
+  border: 3px solid #0000;
+  border-radius: 12px;
+  background: linear-gradient(
+        var(--body-background-color),
+        var(--body-background-color)
+      )
+      padding-box,
+    linear-gradient(var(--angle), #00d8ff, #0006a3) border-box;
+  box-shadow: 10px 5px 5px rgb(46, 45, 45);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-container > img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #0006a3;
+  border-radius: 20%;
+}
+
+.card-container > p {
+  font-size: 22px;
+  font-family: "text-font";
+  margin: 1rem 0;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: break-word;
+  max-width: 90%;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.link-container {
+  margin: 1.5rem 0rem;
+  border: 2px solid #0006a3;
+  border-radius: 15px;
+  padding: 0.4rem;
+  background-color: #ffffff;
+  box-shadow: 1px 0.5px 0.5px rgb(46, 45, 45);
+}
+
+.link-container:hover {
+  border-color: #a30047;
+  background-color: #fff8f8;
+}
+
+.icon-favourite {
+  display: flex;
+  justify-content: end;
+  width: 80%;
+  margin-top: 0.6rem;
+}

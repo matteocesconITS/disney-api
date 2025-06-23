@@ -1,0 +1,19 @@
+.link-back-container {
+  display: flex;
+  justify-content: center;
+}
+
+.link-back-home {
+  text-decoration: none;
+  font-size: 26px;
+  font-family: "title-font";
+  border: 3px solid #0006a3;
+  padding: 0.4rem 1rem;
+  border-radius: 40px;
+  background-color: white;
+}
+
+.link-back-home:hover {
+  border-color: #a30047;
+  background-color: #fff8f8;
+}

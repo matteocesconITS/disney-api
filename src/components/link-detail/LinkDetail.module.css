@@ -1,0 +1,18 @@
+.link-button {
+  text-decoration: none;
+  font-family: "text-font";
+  font-size: 26px;
+  margin-top: 1rem;
+  background: -webkit-linear-gradient(#00d8ff, #0006a3);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0px 5px;
+}
+
+.link-button:hover {
+  background: -webkit-linear-gradient(#9d00ff, #a30047);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,14 @@
+.empty-list-message {
+  font-family: "text-font";
+  font-size: 60px;
+  background: -webkit-linear-gradient(#00d8ff, #0006a3);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.message-container {
+  display: flex;
+  justify-content: center;
+  margin: 8rem 0;
+}

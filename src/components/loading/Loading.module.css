@@ -1,0 +1,17 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+}
+
+.loading-container > p {
+  font-family: "title-font";
+  font-size: 40px;
+  background: -webkit-linear-gradient(#00d8ff, #0006a3);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

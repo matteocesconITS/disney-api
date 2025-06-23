@@ -1,0 +1,69 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10rem;
+}
+
+.login-container > h1 {
+  font-family: "title-font";
+  font-size: 90px;
+  margin-bottom: 2rem;
+  background: -webkit-linear-gradient(#00d8ff, #0006a3);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-login {
+  text-decoration: none;
+  font-family: "text-font";
+  margin: 1.5rem;
+  color: #0b0b0b;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: aliceblue;
+}
+
+@media (max-width: 768px) {
+  .btn-login {
+    margin: 0.3rem;
+  }
+}
+
+.btn-login > a {
+  text-decoration: none;
+  font-family: "text-font";
+  color: #0b0b0b;
+  font-size: 20px;
+}
+
+.input-label {
+  font-family: "text-font";
+  color: #0b0b0b;
+  font-size: 20px;
+  margin: 0.5rem;
+}
+
+.btn-login:hover {
+  background: -webkit-linear-gradient(#00d8ff, #0006a3);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-color: #00d8ff;
+}
+
+.btn-login > a:hover {
+  background: -webkit-linear-gradient(#00d8ff, #0006a3);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-color: #00d8ff;
+}

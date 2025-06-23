@@ -1,0 +1,27 @@
+:root {
+  --body-background-color: #fbfeff;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: var(--body-background-color) !important;
+}
+
+@font-face {
+  font-family: "title-font";
+  src: url("./src/fonts/waltograph42.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "text-font";
+  src: url("./src/fonts/Madrigal-mLJ92.ttf") format("opentype");
+}
+
+.no-results {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 8rem;
+  font-family: "text-font";
+}

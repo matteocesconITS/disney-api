@@ -40,6 +40,7 @@
     linear-gradient(var(--angle), #00d8ff, #0006a3) border-box;
   animation: 4s rotate linear infinite;
   padding: 0.5rem;
+  box-shadow: 1px 0.5px 0.5px #7ea5ff;
 }
 
 .link-body:hover {

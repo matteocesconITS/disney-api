@@ -6,6 +6,8 @@
   margin: 1rem;
   color: #00aaff;
   border-color: #00d8ff;
+  background-color: #fff;
+  box-shadow: 1px 0.5px 0.5px rgb(46, 45, 45);
 }
 
 .logout-btn:hover {

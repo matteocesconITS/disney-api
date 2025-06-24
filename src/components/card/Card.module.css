@@ -69,3 +69,8 @@
   width: 80%;
   margin-top: 0.6rem;
 }
+
+.icon-favourite > button {
+  background-color: #ffffff;
+  box-shadow: 1px 0.5px 0.5px rgb(46, 45, 45);
+}

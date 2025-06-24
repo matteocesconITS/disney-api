@@ -1,7 +1,7 @@
 .fav-character {
   text-decoration: none;
   padding: 0.3rem 3rem;
-  margin: 0.5rem 3rem;
+  margin: 1rem 3rem;
   border: 1px solid black;
   border-radius: 10px;
   font-family: "text-font";
@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   background-color: #ffffff;
+  box-shadow: 2px 2px 2px rgb(46, 45, 45);
 }
 
 .fav-character > img {

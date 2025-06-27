@@ -64,3 +64,14 @@
 .detail-container > p {
   margin-bottom: 6rem;
 }
+
+.tab-content {
+  width: 600px;
+  max-width: 100%;
+  padding: 1rem 2rem;
+}
+
+.tab-content > ul {
+  padding: 0;
+  text-align: left;
+}

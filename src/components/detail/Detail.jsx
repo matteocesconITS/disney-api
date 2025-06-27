@@ -39,7 +39,7 @@ export default function Detail({}) {
             Name: <span>{character.name}</span>{" "}
           </p>
 
-          <ul className="nav nav-pills mb-3">
+          <ul className="nav nav-tabs mb-3">
             {/* films */}
             <li className="nav-item">
               <button

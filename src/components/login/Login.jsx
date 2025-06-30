@@ -8,18 +8,24 @@ export default function Login() {
   const [errorMessage, setErrorMessage] = useState("");
   const navigate = useNavigate();
 
-  const correctUsername = "user";
-  const correctPassword = "1234";
-
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
 
-    if (username === correctUsername && password === correctPassword) {
-      setErrorMessage("");
-      localStorage.setItem("isLogged", "true");
-      navigate("/dashboard");
-    } else {
-      setErrorMessage("Invalid username or password");
+    try {
+      const res = await fetch(
+        `http://localhost:3001/users?username=${username}&password=${password}`
+      );
+      const data = await res.json();
+
+      if (data.length > 0) {
+        setErrorMessage("");
+        localStorage.setItem("isLogged", "true");
+        navigate("/dashboard");
+      } else {
+        setErrorMessage("Invalid username or password");
+      }
+    } catch (err) {
+      setErrorMessage("Login error");
     }
   };
 

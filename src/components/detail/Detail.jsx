@@ -8,6 +8,9 @@ import LinkIcon from "../icon/LinkIcon.jsx";
 import FilmTab from "../detail-tabs/FilmTab.jsx";
 import VideogamesTab from "../detail-tabs/VideogameTab.jsx";
 import TvShowTab from "../detail-tabs/TvShowTab.jsx";
+import Film from "../icon/Film.jsx";
+import Game from "../icon/Game.jsx";
+import Serie from "../icon/Serie.jsx";
 
 export default function Detail({}) {
   const [loading, setLoading] = useState(true);
@@ -46,6 +49,7 @@ export default function Detail({}) {
                 className={`nav-link ${activeTab === "films" ? "active" : ""}`}
                 onClick={() => setActiveTab("films")}
               >
+                <Film />
                 Films
               </button>
             </li>
@@ -57,6 +61,7 @@ export default function Detail({}) {
                 }`}
                 onClick={() => setActiveTab("videoGames")}
               >
+                <Game />
                 VideoGames
               </button>
             </li>
@@ -68,6 +73,7 @@ export default function Detail({}) {
                 }`}
                 onClick={() => setActiveTab("tvShows")}
               >
+                <Serie />
                 TvShows
               </button>
             </li>

@@ -12,6 +12,15 @@
   padding: 0 1rem;
 }
 
+.detail-container > ul {
+  list-style-type: none;
+}
+
+ul.nav.nav-tabs.mb-3 {
+  display: flex !important;
+  justify-content: center !important;
+}
+
 .end-container {
   margin-top: 8rem;
   display: flex;
